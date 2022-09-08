@@ -1,0 +1,29 @@
+{
+    "name": "death_satan/think-dto",
+    "description": "Dto package for thinkphp6",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "think\\route\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DeathSatan",
+            "email": "2771717608@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "topthink/framework": "^6.0.0",
+        "symfony/polyfill-php80": "^1.26"
+    },
+    "extra": {
+        "think": {
+            "services": [
+                "think\\route\\DtoService"
+            ]
+        }
+    }
+}
