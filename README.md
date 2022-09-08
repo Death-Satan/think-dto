@@ -1,4 +1,4 @@
-# Thinkphp6 for DTO
+# Thinkphp6 for DTO (待完善)
 ## 安装 (php>=8.0)
 
 ```shell
